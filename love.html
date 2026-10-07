@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Hsu Yati Win ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            font-family: 'Myanmar Text', 'Segoe UI', Tahoma, sans-serif;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Romantic Glowing Background Orbs */
+        .orb {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: rgba(255, 75, 110, 0.2);
+            filter: blur(80px);
+            border-radius: 50%;
+            z-index: 1;
+            animation: floatOrb 10s infinite alternate;
+        }
+
+        .orb:nth-child(2) {
+            background: rgba(142, 45, 226, 0.2);
+            bottom: -50px;
+            right: -50px;
+            animation-delay: -5s;
+        }
+
+        @keyframes floatOrb {
+            0% { transform: translateY(0) scale(1); }
+            100% { transform: translateY(-50px) scale(1.1); }
+        }
+
+        /* Premium Glassmorphism Card */
+        .card {
+            position: relative;
+            z-index: 2;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 50px 70px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Beating Heart Icon */
+        .heart-icon {
+            font-size: 55px;
+            color: #ff4b6e;
+            margin-bottom: 20px;
+            animation: heartbeat 1.5s infinite;
+            display: inline-block;
+            filter: drop-shadow(0 0 15px rgba(255, 75, 110, 0.6));
+        }
+
+        @keyframes heartbeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+        }
+
+        /* Premium Gradient Text */
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #ff758c, #ff7eb3, #ffffff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 1px;
+            text-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Subtle Subtitle */
+        p {
+            color: rgba(255, 255, 255, 0.6);
+            font-size: 0.95rem;
+            margin-top: 15px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Background Glows -->
+    <div class="orb"></div>
+    <div class="orb"></div>
+
+    <!-- Main Card -->
+    <div class="card">
+        <div class="heart-icon">❤️</div>
+        <h1>Hsu Yati Win ကိုချစ်တယ်</h1>
+        <p>Forever & Always</p>
+    </div>
+
+</body>
+</html>
